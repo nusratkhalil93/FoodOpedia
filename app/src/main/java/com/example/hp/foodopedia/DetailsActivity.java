@@ -63,7 +63,7 @@ public class DetailsActivity extends AppCompatActivity {
             txtDesc.setText("Address: 1367 CDA Avenue, Chittagong 4000\n\nHours: Open 10.00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[1]);
 
             btnCell.setText("CALL");
-            txtDesc.setOnClickListener(new View.OnClickListener() {
+            btnCell.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(Intent.ACTION_CALL);
@@ -88,7 +88,7 @@ public class DetailsActivity extends AppCompatActivity {
             txtDesc.setText("Address: Naval Avenue, CRB Road, Chittagong 4000\n\nHours: Closes soon: 10PM ⋅ Opens 10AM Thu\n\nMobile Number-" +mobilenumber[2]);
 
             btnCell.setText("CALL");
-            txtDesc.setOnClickListener(new View.OnClickListener() {
+            btnCell.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(Intent.ACTION_CALL);
@@ -112,7 +112,7 @@ public class DetailsActivity extends AppCompatActivity {
             txtDesc.setText("Address: 84/A, Khan Manor, Jamalkhan, Chittagong 4000\n\nHours: Open 9.00AM Closes 11:59PM\n\nMobile Number- "+mobilenumber[3]);
 
             btnCell.setText("CALL");
-            txtDesc.setOnClickListener(new View.OnClickListener() {
+            btnCell.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(Intent.ACTION_CALL);
@@ -138,7 +138,7 @@ public class DetailsActivity extends AppCompatActivity {
             txtDesc.setText("Address: 2nd & 3rd Floor 1692, Golden Plaza, CD Avenue, GEC Circle, Chittagong 4000\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[4]);
 
             btnCell.setText("CALL");
-            txtDesc.setOnClickListener(new View.OnClickListener() {
+            btnCell.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(Intent.ACTION_CALL);
@@ -164,7 +164,7 @@ public class DetailsActivity extends AppCompatActivity {
             txtDesc.setText("Address: House No. 7/A/1, Ground Floor, Rubia Mansion, Road 3, Zakir Hossain Road, South Kulshi, Chittagong 4225\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[5]);
 
             btnCell.setText("CALL");
-            txtDesc.setOnClickListener(new View.OnClickListener() {
+            btnCell.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(Intent.ACTION_CALL);
@@ -190,7 +190,7 @@ public class DetailsActivity extends AppCompatActivity {
             txtDesc.setText("Address: 486/B, CDA Avenue, O.R. Nizam Road, Bulbul Center, Chittagong 4100\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[6]);
 
             btnCell.setText("CALL");
-            txtDesc.setOnClickListener(new View.OnClickListener() {
+            btnCell.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(Intent.ACTION_CALL);
@@ -215,7 +215,7 @@ public class DetailsActivity extends AppCompatActivity {
             txtDesc.setText("Address: 94, 8th Floor & Rooftop, Eves Center, Nasirabad Housing Society, Road No 3, Nasirabad, Chittagong 4203\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- " + mobilenumber[7]);
 
             btnCell.setText("CALL");
-            txtDesc.setOnClickListener(new View.OnClickListener() {
+            btnCell.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(Intent.ACTION_CALL);
